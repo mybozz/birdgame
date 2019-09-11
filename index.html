@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>小鸟游戏</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        html, body{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #bird{
+              width: 375px;
+              height: 667px;
+          }
+    </style>
+</head>
+<body>
+    <canvas id="bird" width="375px" height="667px"></canvas>
+    <!--es6语法需要指定type为module-->
+    <script type="module" src="./game.js"></script>
+
+</body>
+</html>
